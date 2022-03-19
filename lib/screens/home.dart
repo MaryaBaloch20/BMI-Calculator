@@ -46,11 +46,13 @@ class _HomeScreenState extends State<HomeScreen> {
                   // color: Colors.black,
                   width: 130,
                   child: TextField(
+                    textAlign: TextAlign.center,
                     controller: _heightController,
                     style: const TextStyle(
-                        fontSize: 40,
-                        fontWeight: FontWeight.w300,
-                        color: accentHexColor),
+                      fontSize: 40,
+                      fontWeight: FontWeight.bold,
+                      color: accentHexColor,
+                    ),
                     keyboardType: TextInputType.number,
                     decoration: InputDecoration(
                         // border: const OutlineInputBorder(
@@ -70,10 +72,11 @@ class _HomeScreenState extends State<HomeScreen> {
                 Container(
                   width: 130,
                   child: TextField(
+                    textAlign: TextAlign.center,
                     controller: _weightController,
                     style: const TextStyle(
                         fontSize: 40,
-                        fontWeight: FontWeight.w300,
+                        fontWeight: FontWeight.bold,
                         color: accentHexColor),
                     keyboardType: TextInputType.number,
                     decoration: InputDecoration(
